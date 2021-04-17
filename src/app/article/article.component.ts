@@ -19,12 +19,12 @@ export class ArticleComponent implements OnInit {
   voteUp(): boolean
   {
     
-    this.currentArticle.voteUp;
+    this.currentArticle.voteUp();
     return false;
   }
   voteDown():boolean
   { 
-    this.currentArticle.voteDown;
+    this.currentArticle.voteDown();
   return false;
   }
 
